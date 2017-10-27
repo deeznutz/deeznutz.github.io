@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+}
+
+html * {
+  background: rgb(250, 250, 250);
+}
+
+div.content {
+  width: 30em;
+  margin: auto;
+
+  font-family: 'Vollkorn', Georgia, serif;
+  color: rgb(40, 40, 60);
+  font-size: 19px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5em;
+}
+
+h1 {
+  line-height: 110%;
+}
+
+div.header-big {
+  margin: 4em 2em 4em 2em;
+}
+
+div.header-big h1.title {
+  text-align: center;
+  font-size: 2em;
+}
+
+div.header-big h1.author {
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(120, 120, 150);
+}
+
+div.header-small {
+  padding: 0.15em 0em 0.05em 0.5em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.02em;
+  border-bottom-color: rgb(180, 180, 200);
+}
+
+div.header-small h1.title {
+  font-size: 0.8em;
+  text-align: left;
+  color: rgb(50, 50, 70);
+}
+
+div.header-small h1.author {
+  display: none;
+}
+
+h1 {
+  font-family: 'Lora', Arial, sans-serif;
+}
+
+h1.chapter-header {
+  font-size: 1.7em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+h1.chapter-subheader {
+  font-size: 1.2em;
+  color: rgb(50, 50, 70);
+  line-height: 1.3em;
+  margin: 1em 1em 3em 1em;
+  text-align: center;
+}
+
+p.letter {
+  font-style: italic;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+p.letter-right {
+  font-style: italic;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: right;
+}
+
+p.newspaper-headline {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+p.newspaper-article {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+p.quote-right {
+  text-align: right;
+}
+
+div.hr {
+  transform: rotate(66deg);
+  margin: 2em auto 2.5em auto;
+  width: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(80, 80, 160);
+}
+
+div.chapter-navigation {
+  margin: 2em 0 2em 0;
+}
+
+a.previous-chapter {
+  font-family: 'Lora', Arial, sans-serif;
+  font-size: 0.9em;
+  margin: 3em 1.5em 1.5em 1.5em;
+  margin-left: 1.5em;
+  margin-bottom: 1.5em
+}
+
+a.next-chapter {
+  font-family: 'Lora', Arial, sans-serif;
+  font-size: 0.9em;
+  float: right;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+span.poetry {
+  display: inline-block;
+  margin: 0 1em 0 2em;
+}
+
+span.poetry-indent {
+  display: inline-block;
+  margin: 0 1em 0 3em;
+}
+
+div.chapters div.chapter {
+  text-align: center;
+}
+
+div.chapters div.chapter h1.chapter-title {
+  font-size: 1.6em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 110%;
+}
+
+div.chapters div.chapter h1.chapter-subtitle {
+  padding: 0 2em 0 2em;
+  font-size: 1.2em;
+  line-height: 140%;
+  margin: 1em 1em 3em 1em;
+}
